@@ -1,0 +1,22 @@
+<atlassian-plugin key="securitylevel.jira.plugin.postfunction" name="Qualifacts Issue Security Level Plugin">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}" />
+        <application-version min="3.4" max="4.0"/>
+    </plugin-info>
+
+    <!-- Modules here -->
+
+  <workflow-function key="set-security-level-function" name="Set the issue security level" class="com.atlassian.jira.plugin.workflow.WorkflowNoInputPluginFactory">
+    <description>Set account and issue security level based on user group</description>
+    <function-class>com.nashvegas.jira.plugins.setHelpdeskSecurity</function-class>
+    <orderable>true</orderable>
+    <unique>true</unique>
+    <deletable>true</deletable>
+    <weight>900</weight>
+    <default>false</default>
+    <resource type="velocity" name="view" location="set-security-level-function-view.vm"/>
+  </workflow-function>
+
+</atlassian-plugin>
