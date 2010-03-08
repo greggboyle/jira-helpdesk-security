@@ -5,13 +5,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>nashvegas</groupId>
+    <groupId>qualifacts</groupId>
     <artifactId>helpdesk-security</artifactId>
     <version>.1</version>
 
     <organization>
-        <name>Nashvegas</name>
-        <url>http://www.nashvegaspartners.com</url>
+        <name>qualifacts</name>
+        <url>http://www.qualifacts.com</url>
     </organization>
     <name>helpdesk-security</name>
     <description>Set account and issue security level based on user group</description>

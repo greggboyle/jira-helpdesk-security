@@ -1,4 +1,4 @@
-package com.nashvegas.jira.plugins;
+package com.qualifacts.jira.plugins;
 
 import org.junit.Test;
 

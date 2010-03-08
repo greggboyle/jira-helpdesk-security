@@ -1,4 +1,4 @@
-package com.nashvegas.jira.plugins;
+package com.qualifacts.jira.plugins;
 
 import com.atlassian.jira.issue.CustomFieldManager;
 import com.atlassian.jira.issue.IssueManager;

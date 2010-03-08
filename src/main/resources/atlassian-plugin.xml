@@ -10,7 +10,7 @@
 
   <workflow-function key="set-security-level-function" name="Set the issue security level" class="com.atlassian.jira.plugin.workflow.WorkflowNoInputPluginFactory">
     <description>Set account and issue security level based on user group</description>
-    <function-class>com.nashvegas.jira.plugins.setHelpdeskSecurity</function-class>
+    <function-class>com.qualifacts.jira.plugins.setHelpdeskSecurity</function-class>
     <orderable>true</orderable>
     <unique>true</unique>
     <deletable>true</deletable>
